@@ -15,6 +15,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //inflating a XML file
         setContentView(R.layout.activity_main_appbar);
 
         toolbar = (Toolbar) findViewById(R.id.app_bar);
